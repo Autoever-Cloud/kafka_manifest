@@ -16,10 +16,8 @@ spec:
         tls: false
       - name: external
         port: 9094
-        type: nodeport
+        type: loadbalancer
         tls: false
-        configuration:
-          preferredNodePortAddressType: InternalIP
     config:
       auto.create.topics.enable: "false"
       default.replication.factor: 3              # ✅ 브로커 수에 맞춰 조정

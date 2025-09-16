@@ -5,7 +5,7 @@ metadata:
   name: kafka-pool
 spec:
   addresses:
-    - 192.168.1.119-192.168.1.119
+    - 192.168.1.210-192.168.1.220
 ---
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
